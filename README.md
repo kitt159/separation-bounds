@@ -8,6 +8,23 @@
 
 Constructive **separation bounds**: exact zero and sign **proofs** for arithmetic expressions.
 
+## Roadmap
+
+- [ ] BFMSS bound with expressions represented as trees
+- [ ] ability to encode expressions as DAGs to get better bounds
+- [ ] automatic transformation into DAG
+- [ ] simpler expression construction using operators or macros
+- [ ] power node, instead of multiple multiplications
+- [ ] dyadic rational node, instead of division for better handling of float constants
+- [ ] BFMSS[k] optimization
+- [ ] Li-Yap bound
+- [ ] heuristics for picking bound type
+- [ ] `RootOf` / diamond operator, to represent every real algebraic number
+- [ ] DAG rewrite rules to get better bounds
+- [ ] return negative / zero / positive, instead of the bit count
+- [ ] optimize evaluation of easy cases
+- [ ] ...
+
 ## License
 
 Licensed under either of
