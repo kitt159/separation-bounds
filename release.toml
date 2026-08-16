@@ -1,0 +1,2 @@
+allow-branch = ["master"]
+pre-release-hook = ["sh", "-c", "act && cargo msrv verify && cargo semver-checks"]

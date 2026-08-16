@@ -1,0 +1,15 @@
+[package]
+name = "separation-bounds"
+version = "0.0.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["Ondřej Toman <ondra007.tom@seznam.cz>"]
+description = "Exact zero and sign tests for arithmetic expressions via constructive separation bounds"
+categories = ["algorithms", "mathematics"]
+keywords = ["root-bound", "exact-arithmetic", "zero-test", "liouville", "BFMSS"]
+repository = "https://github.com/kitt159/separation-bounds"
+documentation = "https://docs.rs/separation-bounds"
+license = "MIT OR Apache-2.0"
+exclude = [".github", ".gitignore", "release.toml"]
+
+[dependencies]
